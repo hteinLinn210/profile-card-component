@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+:root {
+   --dark-cyan: hsl(185, 75%, 39%);
+   --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+   --dark-grayish-blue: hsl(227, 10%, 46%);
+   --dark-gray: hsl(0, 0%, 59%);
+}
+
+body {
+   background-color: var(--dark-cyan);
+   font-family: "Kumbh Sans", sans-serif;
+}
+
+main {
+   background: url(../images/bg-pattern-top.svg) no-repeat -50% 300%, url(../images/bg-pattern-bottom.svg) no-repeat 150% -200%;
+   color: var(--very-dark-desaturated-blue);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   letter-spacing: 2px;
+}
+
+h3 {
+   margin: 0.75rem auto;
+}
+
+span {
+   color: var(--dark-gray);
+   font-weight: 400;
+}
+
+hr {
+   margin: 1.25rem 0;
+}
+
+p {
+   font-weight: 700;
+}
+
+.container {
+   background: url(../images/bg-pattern-card.svg) no-repeat;
+   background-color: #fff;
+   border-radius: 20px;
+   text-align: center;
+   height: 370px;
+   width: 350px;
+}
+
+.profile-img {
+   border: 5px solid #fff;
+   border-radius: 50%;
+   margin-top: 85px;
+}
+
+.stats {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.st-span {
+   font-size: 12px;
+}
