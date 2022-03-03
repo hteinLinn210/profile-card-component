@@ -19,12 +19,14 @@ body {
 }
 
 main {
-   background: url(../images/bg-pattern-top.svg) no-repeat -50% 300%, url(../images/bg-pattern-bottom.svg) no-repeat 150% -200%;
+   background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+   background-position: bottom 35vh right 54vw, top 42vh left 50vw;
+   background-repeat: no-repeat, no-repeat;
    color: var(--very-dark-desaturated-blue);
    display: flex;
    align-items: center;
    justify-content: center;
-   height: 100vh;
+   min-height: 100vh;
    letter-spacing: 2px;
 }
 
